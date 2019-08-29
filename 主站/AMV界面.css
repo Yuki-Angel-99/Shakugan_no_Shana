@@ -1,0 +1,38 @@
+/*div.relative 
+{
+  position: relative;
+  left: 100px;
+  border: 3px solid #73AD21;*/
+
+/* Create three equal columns that floats next to each other */
+.column 
+{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img 
+{
+    -webkit-filter: brightness(100%);
+}
+
+.twentysixpoint {line-height: 26pt;} 
+
+img:hover 
+{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
